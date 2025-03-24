@@ -10,9 +10,9 @@ export function ProfileAvatar({
         viewBox="0 0 80 80" 
         fill="none" 
         xmlns="http://www.w3.org/2000/svg"
+        className="cursor-pointer rounded-full"
       >
         <circle cx="40" cy="40" r="38" stroke={strokeColor} strokeWidth="2"/>
-        {/* Versão com espaçamento embutido (3 unidades) */}
         <path 
           d="M40 39C46.075 39 51 34.075 51 28C51 21.925 46.075 17 40 17C33.925 17 29 21.925 29 28C29 34.075 33.925 39 40 39Z" 
           fill={fillColor}
